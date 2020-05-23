@@ -16,10 +16,12 @@ from torchvision import models
 import matplotlib.pyplot as plt
 from model import COVID19Seg
 
-
+# This is main path where data is stored
 MainPath='/home/vivek/dataset/covid/train/'
-image_pth='a/'
-gt_path='b/'
+#  This folder will contain the gray scale 2D CT images
+image_pth='a/'      
+#  This folder will contain the binary mask of 2D CT images which has label 0 and 255.
+gt_path='b/'         
 
 ImageList=[]
 AnnList=[]
