@@ -167,7 +167,6 @@ class COVID19Seg(nn.Module):
         self.dilated2_4 = PDGC(512, 512)
         self.cam4 = FAM_Module(512)
 
-
         self.decoder4 = Decoder(512, 256, 3, 2, 1, 1)
         self.decoder3 = Decoder(256, 128, 3, 2, 1, 1)
         self.decoder2 = Decoder(128, 64, 3, 2, 1, 1)
