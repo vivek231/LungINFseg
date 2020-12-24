@@ -186,7 +186,7 @@ class LungINFseg(nn.Module):
         x = nn.functional.interpolate(x, size=(256,256), mode='bilinear', align_corners=True)
         x = self.in_block(x)
 # ============================================================================================
-        # Encoder blocks 1
+        # RFA blocks 1
         e1 = self.encoder1(x)
         a = self.sz1(input)
         x1 = nn.functional.interpolate(a, size=64, mode='bilinear', align_corners=True)  
@@ -196,7 +196,7 @@ class LungINFseg(nn.Module):
         e1 = self.dilated2_1(e1)
         e1 = self.cam1(e1)
 # ============================================================================================
-        # Encoder blocks 2
+        # RFA blocks 2
         e2 = self.encoder2(e1)
         b = self.sz2(input) 
         x2 = nn.functional.interpolate(b, size=32, mode='bilinear', align_corners=True)  
@@ -206,7 +206,7 @@ class LungINFseg(nn.Module):
         e2 = self.dilated2_2(e2)
         e2 = self.cam2(e2)
 # ============================================================================================
-        # Encoder blocks 3
+        # RFA blocks 3
         e3 = self.encoder3(e2)
         c = self.sz3(input) 
         x3 = nn.functional.interpolate(c, size=16, mode='bilinear', align_corners=True)  
@@ -216,7 +216,7 @@ class LungINFseg(nn.Module):
         e3 = self.dilated2_3(e3)
         e3 = self.cam3(e3)
 # ============================================================================================
-        # Encoder blocks 4
+        # RFA blocks 4
         e4 = self.encoder4(e3)
         d = self.sz4(input) 
         x4 = nn.functional.interpolate(d, size=8, mode='bilinear', align_corners=True)  
