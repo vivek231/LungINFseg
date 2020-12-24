@@ -1,6 +1,7 @@
-# COVID-19-Seg
+# LungINFseg
 [![](https://img.shields.io/badge/python-3.6%2B-green.svg)]()
-Automated COVID-19 Lung CT Infection Segmentation using Frequency Domain Attention 
+LungINFseg: Segmenting COVID-19 Infected Regions in Lung CT Images
+Based on Receptive-Field-Aware Deep Learning Framework 
 
 ## Prerequisites
 
