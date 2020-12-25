@@ -4,13 +4,13 @@ LungINFseg: Segmenting COVID-19 Infected Regions in Lung CT Images
 Based on Receptive-Field-Aware Deep Learning Framework 
 
 ## Prerequisites
-
+'''
 + Linux
 + Python with numpy
 + NVIDIA GPU + CUDA 8.0 + CuDNNv5.1
 + pytorch 4.0/4.1
 + torchvision
-
+'''
 ## Getting started
 
 - Clone this repo 
