@@ -21,10 +21,15 @@ Based on Receptive-Field-Aware Deep Learning Framework
 **+ Train the model:**
 
     python train.py 
-
-*** Publication:***
+    
+**+ Test the model:**
 
     python test.py
+ 
+ *** Test the model:***
+ ```
+ The work is in the under review for possible publicaton in near future.
+ ```
 
 :point_down: Screenshot:
 
