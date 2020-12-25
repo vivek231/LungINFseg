@@ -22,7 +22,7 @@ Based on Receptive-Field-Aware Deep Learning Framework
 
     python train.py 
 
-**+ Test the model:**
+*** Publication:***
 
     python test.py
 
