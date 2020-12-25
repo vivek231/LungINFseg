@@ -12,10 +12,10 @@ Based on Receptive-Field-Aware Deep Learning Framework
 + torchvision
 ```
 ## Getting started
-
+```
 - Clone this repo 
 - Install requirements
-
+```
 
 
 **+ Train the model:**
