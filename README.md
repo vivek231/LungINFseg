@@ -26,7 +26,7 @@ Based on Receptive-Field-Aware Deep Learning Framework
 
     python test.py
  
- *** Test the model:***
+**+ Publication/citation:**
  ```
  The work is in the under review for possible publicaton in near future.
  ```
