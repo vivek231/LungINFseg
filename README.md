@@ -28,7 +28,7 @@ Based on Receptive-Field-Aware Deep Learning Framework
  
 **+ Publication/citation:**
  ```
- The work is in the under review for possible publicaton in near future.
+    The work is under review for possible publication in near future.      
  ```
 
 :point_down: Screenshot:
