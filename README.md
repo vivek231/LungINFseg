@@ -3,7 +3,7 @@
 LungINFseg: Segmenting COVID-19 Infected Regions in Lung CT Images
 Based on Receptive-Field-Aware Deep Learning Framework 
 
-This repository is in progress to provide the clean version of codes.
+This repository is in progress to provide the clean version of the codes.
 
 ## Prerequisites
 ```
