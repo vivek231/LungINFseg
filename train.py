@@ -115,15 +115,14 @@ for epoch in range(epochs_num):
         AnnArr_4 = F.interpolate(AnnArr, size=(8, 8), mode='bicubic', align_corners=False)
 
         #!------------------------Loss_function_computation-------------------------!
-        loss1 = 200*criterion(out,AnnArr)
+        loss1 = 200*criterion(out,AnnArr)+100*dice_loss(out2,AnnArr.long())
         # ------------------------------------------
         loss2 = 150*dice_loss(out2_e1,AnnArr_1.long())
         loss3 = 100*dice_loss(out2_e2,AnnArr_2.long())
         loss4 = 100*dice_loss(out2_e3,AnnArr_3.long())
         loss5 = 100*dice_loss(out2_e4,AnnArr_4.long())
-        loss6 = 100*dice_loss(out2,AnnArr.long())
 
-        loss = loss1+loss2+loss3+loss4+loss5+loss6
+        loss = loss1+loss2+loss3+loss4+loss5
         
         optimizer.zero_grad()
         loss.backward()
