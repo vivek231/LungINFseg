@@ -27,11 +27,7 @@ THIS REPOSITORY IS IN PROGRESS TO PROVIDE THE CLEAN VERSION OF THE CODES AND UPD
 **+ Test the model:**
 
     python test.py
- 
-**+ Publication/citation:**
- ```
-    The work is under review for possible publication in near future.      
- ```
+
 
 :point_down: Screenshot:
 
