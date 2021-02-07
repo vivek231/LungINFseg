@@ -7,10 +7,6 @@ from flgc import Flgc2d
 from dwt import DWT
 from fam import FAM_Module
 
-
-__all__ = ["LinkNet"]
-
-
 class LPDGC(nn.Module):
     def __init__(self, inplanes, planes):
         super(LPDGC, self).__init__()
