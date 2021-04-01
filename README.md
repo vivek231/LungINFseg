@@ -33,4 +33,17 @@ Based on Receptive-Field-Aware Deep Learning Framework
   <img src="/static/screenshot.png" height="480px" alt="">
 </p>
 
-------------------
+## Citation:
+If you use the code in your work, please use the following citation:
+```
+@article{kumar2021lunginfseg,
+  title={Lunginfseg: Segmenting covid-19 infected regions in lung ct images based on a receptive-field-aware deep learning framework},
+  author={Kumar Singh, Vivek and Abdel-Nasser, Mohamed and Pandey, Nidhi and Puig, Domenec},
+  journal={Diagnostics},
+  volume={11},
+  number={2},
+  pages={158},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
