@@ -3,7 +3,6 @@
 LungINFseg: Segmenting COVID-19 Infected Regions in Lung CT Images
 Based on Receptive-Field-Aware Deep Learning Framework 
 
-
 ## Prerequisites
 ```
 + Linux
